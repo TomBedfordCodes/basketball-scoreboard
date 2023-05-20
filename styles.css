@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: "CursedTimer";
+    src: url(CursedTimerUlil-Aznm.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "CursedTimer";
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.container {
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+}
+
+.cols-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.score-container {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    color: #F94F6D;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 135px;
+    margin-bottom: 26px;
+    margin-top: 20px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    background: #1B244A;
+}
+
+button:hover {
+    background: #9AABD8;
+    color: #1B244A
+}
+
+button:active {
+    background: #7492e3
+}
+
+#newgame-btn {
+    width: 200px;
+}
+
+.centeredBtn-div {
+    width: 200px;
+    margin: 20px auto;
+}
+
